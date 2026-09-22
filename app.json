@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "hi-finance",
+    "slug": "hi-finance",
+    "version": "0.1.0",
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
