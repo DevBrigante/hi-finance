@@ -6,6 +6,8 @@ export const lightColors = {
   border: "#E2E7D8",
   actionPrimary: "#C8F751",
   onActionPrimary: "#10130D",
+  textTertiary: "#68705E",
+  borderStrong: "#DCE3CE",
 } as const;
 
 export const darkColors = {
@@ -16,4 +18,6 @@ export const darkColors = {
   border: "#2A3122",
   actionPrimary: "#C8F751",
   onActionPrimary: "#10130D",
-} as const;
+  textTertiary: "#8E9683",
+  borderStrong: "#2F3827",
+} as const satisfies Record<keyof typeof lightColors, string>;

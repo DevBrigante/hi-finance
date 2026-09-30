@@ -4,7 +4,11 @@
     "slug": "hi-finance",
     "version": "0.1.0",
     "userInterfaceStyle": "automatic",
-    "plugins": ["expo-router"],
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-splash-screen"
+    ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
